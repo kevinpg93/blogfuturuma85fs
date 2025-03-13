@@ -3,11 +3,15 @@ import { useParams } from "react-router-dom";
 import { Context } from "../store/appContext";
 export const DetailedView = () => {
     const { type, id } = useParams();
+   
     const { store, actions } = useContext(Context);
+   
     useEffect(() => {
         actions.getData(type, id);
     }, [type, id]);
     const data = store.detailedData;
+   
+    
     return (
         <div className="container mt-5">
             {data && (

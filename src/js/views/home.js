@@ -29,7 +29,7 @@ export const Home = () => {
             {/* Inventory */}
             {store.inventory?.length > 0 && (
                 <>
-                    <h1 className="text-danger mt-5">Inventory</h1>
+                    <h1 className="text-danger mt-3">Inventory</h1>
                     <div className="scroll-container">
                         <div className="d-flex">
                             {store.inventory.map((inventory, index) => (
@@ -44,7 +44,7 @@ export const Home = () => {
             {/* Episodes */}
             {store.episodes?.length > 0 && (
                 <>
-                    <h1 className="text-danger mt-5">Episodes</h1>
+                    <h1 className="text-danger mt-3">Episodes</h1>
                     <div className="scroll-container">
                         <div className="d-flex">
                             {store.episodes.map((episode, index) => (

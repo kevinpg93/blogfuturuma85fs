@@ -36,6 +36,7 @@ const getState = ({ getStore, setStore }) => {
                 }
             },
             getData: async (type, id) => {
+                
                 try {
                     const response = await fetch(`https://api.sampleapis.com/futurama/${type}`);
                     const data = await response.json();
