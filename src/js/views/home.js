@@ -10,7 +10,7 @@ export const Home = () => {
         actions.getEpisodes();
     }, []);
     return (
-        <div className="container">
+        <div className="container-fluid">
             {/* Characters */}
             {store.characters?.length > 0 && (
                 <>

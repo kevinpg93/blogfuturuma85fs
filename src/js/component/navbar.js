@@ -10,11 +10,11 @@ export const Navbar = () => {
     return (
         <nav className="navbar navbar-light bg-light mb-3 fixed-top shadow">
             <div className="container-fluid">
-                <a className="navbar-brand mb-0" href="/">
+                <a className="navbar-brand mb-3" href="/">
                     <img
                         src="https://imgs.search.brave.com/buEZ6FvLlU720WZoeU5RWeMp0VBB1ObHXL5eG1iZOsk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wdXJl/cG5nLmNvbS9wdWJs/aWMvdXBsb2Fkcy90/aHVtYm5haWwvL3B1/cmVwbmcuY29tLWZ1/dHVyYW1hLXNoaXBm/dXR1cmFtYWFuaW1h/dGlvbnNjaWVuY2Vm/aWN0aW9uY2FydG9v/bi0xNzAxNTI4NjAz/OTg1a3JlcmoucG5n"
                         alt="Futurama Logo"
-                        style={{ width: "200px", height: "auto"}}
+                        style={{ width: "80px", height: "100%"}}
                     />
                 </a>
                 <div className="ml-auto">

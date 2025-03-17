@@ -9,7 +9,7 @@ export const CardInfo = ({ item, type }) => {
         <div className="card m-3" style={{ width: "18rem" }}>
             {/* Imagen solo si es un personaje */}
             {type === "characters" && item.images?.main && (
-                <img src={item.images.main} className="card-img-top" alt={item.name?.first} />
+                <img src={item.images.main} className="card-img-top mt-3" alt={item.name?.first} />
             )}
             <div className="card-body">
                 <h5 className="card-title">
